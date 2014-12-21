@@ -1,0 +1,16 @@
+Description de la société
+
+
+Fineduc est la holding du pole technologique de Ionis, dont KOD, acronyme pour Kind Of Dev, est le pôle responsable du développement des solutions intranet et extranet ; son rôle est de maintenir et de développer les solutions permettant l'optimisation des processus de scolarité.
+
+
+Mission réalisée
+
+
+Ma mission fut de réaliser un portage d'une application lourde permettant à l'équipe pédagogique de gérer l'ensemble des étudiants d'epitech ; et d'en faire une application web. Ce logiciel leur donne un accès en lecture et en écriture sur les informations de tous les étudiants.
+
+
+Ressenti personnel
+
+
+Travailler dans cet entreprise, aux côtés d'autres étudiants d'epitech, à savoir 5 autres élèves de ma promo, un étudiant en promo 2017 et un en 2016, parti entre temps au Barhein, nous a permis d'apprendre à mieux travailler en groupe. Cela m'a également permis d'apprendre à maîtriser des frameworks web, tandis que je ne faisais que des sites codés rapidement. Puisqu'il s'agit de ma première expérience professionnelle, j'ai également appris à m'adapter aux horaires de travail qui changeaient beaucoup de mon rythme habituel.
