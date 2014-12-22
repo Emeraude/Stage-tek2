@@ -1,0 +1,65 @@
+Thibaut BROGGI
+
+
+RAPPORT DE STAGE CHEZ FINEDUC
+
+24 Avril 2014 – 24 Octobre 2014 
+
+
+Développement et maintenance de solutions web pour l'optimisation des processus de scolarité au sein du groupe IONIS.
+
+
+TODO : METTRE EN PAGE
+
+
+FINEDUC – KOD
+
+Paritalie
+
+18 rue paster
+
+94270 Le Kremlin Bicêtre
+
+
+Thibaut BROGGI (broggi_t)
+
+Stage de deuxième année.
+
+
+I Partie pour le nouveau
+
+I.1 L'entreprise
+
+I.1.a Fineduc // Ici on dit ce qu'est Fineduc par rapport à IONIS + parler du bocal en quelques lignes (pole technologique : 9 école)
+
+I.1.b KOD // Ici on dit que KOD c'est la partie dev et aussi parler formation + stage + CDD 
+
+// Un petit schéma de la hiérarchie pour résumer le tout =P
+
+// Foutre des petits screenshots pour montrer tous les projets
+
+
+I.2 Le projet
+
+I.2.a technologies utilisées
+
+I.2.b But du projet
+
+
+<nowiki>======R</nowiki>ÉSUMÉ PARTIE I.2======
+
+IBP a été codé en [https://php.net/ PHP 5.4.4] avec le framework [http://cakephp.org/ Cakephp 2.5.5]. 
+
+Il s'agit d'un portage de l'application lourde IBP en version web. Le site se présente donc sous la forme d'une interface sur une seule page ; chaque modification faisant appel à une requête ajax. Elle offre aux administrateurs un accès en lecture et en écriture sur les informations concernant les étudiants et leurs référents.Ces informations sont récupérées depuis la base de données [https://www.microsoft.com/en-us/server-cloud/products/sql-server/ MSSQL] '''Pedago Epitech''' se trouvant sur le serveur '''sql-1.epitech.net'''. 
+
+Les principaux éléments dont est constituée l'unique page d'IBP sont : 
+
+* un tableau contenant la liste de tous les étudiants,
+* un menu sur la gauche permettant de filtrer les résultats affichés dans le tableau d'étudiants,
+* des onglets en dessous du tableau d'étudiants permettant de visualiser et d'éditer les informations de ces derniers.
+
+II Lettre au maître de stage
+
+II.1 préambule // ici on explique que j'ai déjà été repris et que je souhaite en réalité en CDI à la fin de mon CDD
+
+II.2 contenu de la lettre
