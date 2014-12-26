@@ -1,65 +1,83 @@
-Thibaut BROGGI
+'''Thibaut BROGGIbroggi_t'''
 
 
-RAPPORT DE STAGE CHEZ FINEDUC
-
-24 Avril 2014 – 24 Octobre 2014 
+<center>'''RAPPORT DE STAGE CHEZ FINEDUC'''</center>
 
 
-Développement et maintenance de solutions web pour l'optimisation des processus de scolarité au sein du groupe IONIS.
+<center>''Développement et maintenance de solutions web pour l'optimisation des processus de scolarité au sein du groupe IONIS.''</center>
 
 
-TODO : METTRE EN PAGE
+<center>Stage de deuxième année</center>
+
+<center>24 Avril 2014 – 24 Octobre 2014</center>
 
 
-FINEDUC – KOD
-
-Paritalie
-
-18 rue paster
-
-94270 Le Kremlin Bicêtre
+[[Image:]]
 
 
-Thibaut BROGGI (broggi_t)
-
-Stage de deuxième année.
+[[Image:]]
 
 
-I Partie pour le nouveau
+<center>FINEDUC – KOD</center>
 
-I.1 L'entreprise
+<center>Paritalie</center>
 
-I.1.a Fineduc // Ici on dit ce qu'est Fineduc par rapport à IONIS + parler du bocal en quelques lignes (pole technologique : 9 école)
+<center>18 rue Pasteur</center>
 
-I.1.b KOD // Ici on dit que KOD c'est la partie dev et aussi parler formation + stage + CDD 
+<center>94270 Le Kremlin Bicêtre</center>
 
-// Un petit schéma de la hiérarchie pour résumer le tout =P
+= I. Partie pour le nouveau =
+// TODO : trouver un titre qui claque
 
-// Foutre des petits screenshots pour montrer tous les projets
+== I.1 L'entreprise ==
+=== I.1.a Fineduc ===
+[[Image:]]Fineduc est la holding du pôle technologique du groupe IONIS, société francaise specialisee dans le rachat et la création d'écoles supérieures privées et dirigée par Marc Sellam. Ce groupe possède 21 écoles, réparties en 3 pôles, donc le pôle technologique qui contient 8 ecoles : Epita, ESME, IPSA, Epitech, Suo'Biotech, e-artsup, Ionis-STM et Sup'internet.
+
+Fineduc est divisée en deux pôles : le Bocal, qui s'occupe de la production, et KOD, acronyme pour Kind Of Dev, qui est chargé du développement. Le rôle de cette entité est donc de développer et de maintenir des solutions web visant à optimiser les processus de scolarité des écoles faisant partie du pôle technologique du groupe IONIS, en particulier epitech.
+
+=== I.1.b KOD ===
+==== I.1.b.i Formation ====
+Le 10 Mars 2014, j'ai commencé une formation aux technologies du web, avec 8 autres étudiants de ma promo. En en connaissant déjà plusieurs, à savoir HTML, CSS, PHP, MySQL et JavaScript, j'ai pu progresser très rapidement dans les exercices demandés. Les dernières technologiques découvertes pendant cette formation, à savoir jQuery et CakePHP, deux frameworks web, étaient totalement nouvelles pour moi. Notre formation s'est finie par un petit projet d'une durée d'environ deux semaines. L'objectif était, avec mes 5 camarades, 3 ayant quitté la formation auparavant, de créer un jeu par navigateur de type oGame. Ce projet nous a également permis de voir quelle progression nous avons effectué tout au long de notre stage. Suite à notre formation, puis à notre stage, nous avons obtenu un CDD du 27 Octobre 2014 au 31 Décembre 2014.
+
+==== I.1.b.ii Hiérarchie ====
+L'équipe est composée de 8 développeurs, ainsi que du responsable Cyril Hagege, remplacé en Septembre 2014 par Bryan Maingueux. Le directeur du pôle développement est Fabrice Jumarie, également responsable de Julie Viatgé, la graphiste de Fineduc.
+
+[[Image:]]
+
+==== I.1.b.iii Les projets ====
+KOD s'occupe du développement et de la maintenance de différents projets :
+
+''// TODO : Foutre la liste des projets avec d'éventuels screenshots''
+
+REF, IBP, BAP, PRO, IRI, INS, REI, CAN, IEC
+
+== I.2 Mes projets ==
+Durant mon stage, j'ai été amené à travailler sur deux projets, l'Intranet Base Pédago, abrégé '''IBP''', et le portail des référents, abrégé '''REF'''. Ces deux projets utilisent le même portail de connexion ''(TODO : screenshot ?)'' qui permet de rediriger les utilisateurs en fonction de leur statut. En effet, tandis qu'un étudiant ou son responsable financier aura accès à REF, un membre de l'équipe pédagogique aura accès à IBP. Ces deux projets utilisent le framework [http://cakephp.org/ Cakephp 2.5.5] et le langage utilisé est [https://php.net/ PHP 5.4.4].'''
+
+Nous avons également créé un wiki grâce au moteur '''DokuWiki''', où sont documentés chaque projet, ce qui permet à n'importe quel développeur de travailler plus rapidement sur n'importe quel projet.
+
+=== I.2.a IBP : Intranet Base Pédago ===
+==== I.2.a.i Application lourde ====
+IBP était une application lourde codée en '''VB''' ''(TODO : trouver ce que ça veut dire et vérifier que c'est du VB et pas du VBA)'', dont le but est d'offrir aux administrateurs un accès en lecture et en écriture sur les informations concernant tous les étudiants d'epitech, ainsi que celles de leurs contacts. ''(TODO : je fous ça ici, ou juste avant ?)''
+
+Il m'a été demandé, avec Léopold Gabet, étudiant de la même promotion que moi, de réaliser un portage de ce logiciel, en en faisant une application web. Ceci rend en effet le logiciel plus facilement maintenable : les technologies utilisées rendent le travail plus rapide, en limitant les erreurs et il est plus facilement modifiable. En effet, il est possible de modifier la version web sans que les utilisateurs aient quoi que ce soit à modifier, tandis que déployer une application lourde est plus compliqué.
+
+''// TODO : Des screenshots =D''
+
+==== I.2.a.ii Application web ====
+''// ici on parle réellement de ce que j'ai codé''
+
+La version web d'IBP se présente sous la forme d'une interface sur une seule page, qui reprend l'esthétique ''(TODO : ça s'écrit vraiment comme ça ?)'' de l'application lourde. Cette page est donc séparée en trois parties : un tableau contenant la liste des étudiants, un menu sur la gauche permettant de filtrer des étudiants selon certains critères, et des onglets en dessous du tableau, permettant d'afficher et d'étier les informations du ou des étudiants actuellement sélectionnés.
+
+''// TODO : étoffer un peu tout ça en rentrant dans les parties techniques''
+
+=== I.2.b REF : Portail des référents ===
+// TODO : regarder ce qu'on a écrit dans le wiki
 
 
-I.2 Le projet
+= II Lettre au maître de stage =
+== II.1 préambule ==
+''// TODO : ici on explique que j'ai déjà été repris et que je souhaite en réalité en CDI à la fin de mon CDD''
 
-I.2.a technologies utilisées
+== II.2 contenu de la lettre ==
 
-I.2.b But du projet
-
-
-<nowiki>======R</nowiki>ÉSUMÉ PARTIE I.2======
-
-IBP a été codé en [https://php.net/ PHP 5.4.4] avec le framework [http://cakephp.org/ Cakephp 2.5.5]. 
-
-Il s'agit d'un portage de l'application lourde IBP en version web. Le site se présente donc sous la forme d'une interface sur une seule page ; chaque modification faisant appel à une requête ajax. Elle offre aux administrateurs un accès en lecture et en écriture sur les informations concernant les étudiants et leurs référents.Ces informations sont récupérées depuis la base de données [https://www.microsoft.com/en-us/server-cloud/products/sql-server/ MSSQL] '''Pedago Epitech''' se trouvant sur le serveur '''sql-1.epitech.net'''. 
-
-Les principaux éléments dont est constituée l'unique page d'IBP sont : 
-
-* un tableau contenant la liste de tous les étudiants,
-* un menu sur la gauche permettant de filtrer les résultats affichés dans le tableau d'étudiants,
-* des onglets en dessous du tableau d'étudiants permettant de visualiser et d'éditer les informations de ces derniers.
-
-II Lettre au maître de stage
-
-II.1 préambule // ici on explique que j'ai déjà été repris et que je souhaite en réalité en CDI à la fin de mon CDD
-
-II.2 contenu de la lettre
