@@ -138,6 +138,11 @@ Objet :[KOD] Renouvellement de contrat
 Bonjour,
 
 
+Mon CDD arrivant à son terme, je souhaiterais renouveler mon conrat et obtenir un CDI. En effet, travailler à vos côtés fut une expérience très enrichissante, tant du point de vue technique que du point de vue professionnel. J'ai su maîtriser rapidement des technologies qui m'étaient jusqu'alors inconnues, comme les frameworks jQuery et CakePHP utilisés durant ces 8 mois.
+
+Au vu de l'efficacité dont j'ai su faire preuve pendant mes précédents contrats, je me permets de me proposer pour le développement de l'intranet de KOD, quie je réaliserai en node.js, technologie qu'il me tarde de découvrir.
+
+
 Cordialement,
 
 
