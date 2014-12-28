@@ -24,14 +24,39 @@
 
 <center>18 rue Pasteur</center>
 
-<center>94270 Le Kremlin Bicêtre</center>
+<center>94270 Le Kremlin Bicêtre</center>== <center>'''SOMMAIRE'''</center> ==
+[#__RefHeading__464_1794689638 Présentation de la société et des projets3]
 
-= I. Partie pour le nouveau =
-// TODO : trouver un titre qui claque + faire un sommaire avec liens
+[#__RefHeading__754_2090438820 I.1 L'entreprise4]
 
+[#__RefHeading__756_2090438820 I.1.a Fineduc4]
+
+[#__RefHeading__758_2090438820 I.1.b KOD4]
+
+[#__RefHeading__760_2090438820 I.1.b.i Formation4]
+
+[#__RefHeading__762_2090438820 I.1.b.ii Hiérarchie5]
+
+[#__RefHeading__764_2090438820 I.1.b.iii Les projets6]
+
+[#__RefHeading__766_2090438820 I.2 Mes projets6]
+
+[#__RefHeading__768_2090438820 I.2.a IBP : Intranet Base Pédago7]
+
+[#__RefHeading__770_2090438820 I.2.a.i Application lourde7]
+
+[#__RefHeading__772_2090438820 I.2.a.ii Application web8]
+
+[#__RefHeading__774_2090438820 I.2.b REF : Portail des référents10]
+
+[#__RefHeading__776_2090438820 E-mail au maître de stage11]
+
+[#__RefHeading__780_2090438820 II.1 Préambule12]
+
+[#__RefHeading__782_2090438820 II.2 Contenu du mail12]= Présentation de la société et des projets =
 == I.1 L'entreprise ==
 === I.1.a Fineduc ===
-[[Image:]]Fineduc est la holding du pôle technologique du groupe IONIS, société francaise specialisee dans le rachat et la création d'écoles supérieures privées et dirigée par Marc Sellam. Ce groupe possède 21 écoles, réparties en 3 pôles, dont le pôle technologique qui contient 8 écoles : Epita, ESME, IPSA, Epitech, Suo'Biotech, e-artsup, Ionis-STM et Sup'internet.
+[[Image:]]Fineduc est la holding du pôle technologique du groupe IONIS, société francaise specialisee dans le rachat et la création d'écoles supérieures privées et dirigée par Marc SELLAM. Ce groupe possède 21 écoles, réparties en 3 pôles, dont le pôle technologique qui contient 8 écoles : Epita, ESME, IPSA, Epitech, Suo'Biotech, e-artsup, Ionis-STM et Sup'internet.
 
 Fineduc est divisée en deux pôles : le Bocal, qui s'occupe de la production, et KOD, acronyme pour Kind Of Dev, qui est chargé du développement. Le rôle de cette entité est donc de développer et de maintenir des solutions web visant à optimiser les processus de scolarité des écoles faisant partie du pôle technologique du groupe IONIS, en particulier epitech.
 
@@ -40,7 +65,7 @@ Fineduc est divisée en deux pôles : le Bocal, qui s'occupe de la production, e
 Le 10 Mars 2014, j'ai commencé une formation aux technologies du web, avec 8 autres étudiants de ma promo. En en connaissant déjà plusieurs, à savoir HTML, CSS, PHP, MySQL et JavaScript, j'ai pu progresser très rapidement dans les exercices demandés. Les dernières technologies découvertes pendant cette formation, à savoir jQuery et CakePHP, deux frameworks web, étaient totalement nouvelles pour moi. Notre formation s'est finie par un petit projet d'une durée d'environ deux semaines. L'objectif était, avec mes 5 camarades, 3 ayant quitté la formation auparavant, de créer un jeu par navigateur de type oGame. Ce projet nous a également permis de voir quelle progression nous avons effectué tout au long de notre stage. Suite à notre formation, puis à notre stage, nous avons obtenu un CDD du 27 Octobre 2014 au 31 Décembre 2014.
 
 ==== I.1.b.ii Hiérarchie ====
-L'équipe est composée de 8 développeurs, ainsi que du responsable Cyril Hagege, remplacé en Septembre 2014 par Bryan Maingueux. Le directeur du pôle développement est Fabrice Jumarie, également responsable de Julie Viatgé, la graphiste de Fineduc.
+L'équipe est composée de 8 développeurs, ainsi que du responsable Cyril HAGEGE, remplacé en Septembre 2014 par Bryan MAINGUEUX. Le directeur du pôle développement est Fabrice JUMARIE, également responsable de Julie VIATGÉ, la graphiste de Fineduc.
 
 [[Image:]]
 
@@ -67,9 +92,8 @@ Nous avons aussi été amenés à corriger des bugs dans d'autres projets, tels 
 ==== I.2.a.i Application lourde ====
 '''IBP''' était une application lourde codée en [http://msdn.microsoft.com/en-us/vstudio/ms788229.aspx Visual Basic], dont le but est d'offrir aux administrateurs un accès en lecture et en écriture sur les informations concernant tous les étudiants d'epitech, ainsi que celles de leurs contacts.
 
-Il m'a été demandé, avec Léopold Gabet, étudiant de la même promotion que moi, de réaliser un portage de ce logiciel, en en faisant une application web. Ceci rend en effet le logiciel plus facilement maintenable : les technologies utilisées rendent le travail plus rapide, en limitant les erreurs et il est plus facilement modifiable. En effet, il est possible de modifier la version web sans que les utilisateurs aient quoi que ce soit à modifier, tandis que déployer une application lourde est plus compliqué.
+[[Image:]]Il m'a été demandé, avec Léopold Gabet, étudiant de la même promotion que moi, de réaliser un portage de ce logiciel, en en faisant une application web. Ceci rend en effet le logiciel plus facilement maintenable : les technologies utilisées rendent le travail plus rapide, en limitant les erreurs et il est plus facilement modifiable. En effet, il est possible de modifier la version web sans que les utilisateurs aient quoi que ce soit à modifier, tandis que déployer une application lourde est plus compliqué.
 
-[[Image:]]
 
 ==== I.2.a.ii Application web ====
 La version web d''''IBP''' se présente sous la forme d'une interface sur une seule page, qui reprend l'esthétique de l'application lourde. Cette page est donc séparée en trois parties : un tableau contenant la liste des étudiants, un menu sur la gauche permettant de filtrer des étudiants selon certains critères, et des onglets en dessous du tableau, permettant d'afficher et d'étier les informations du ou des étudiants actuellement sélectionnés.
@@ -83,7 +107,8 @@ Plusieurs étudiants peuvent être modifiés à la fois grâce aux actions de ma
 Enfin, il est également possible de générer des facture pour les matériels, ainsi que des certificats de scolarité et des fiches chèques au format ''pdf''. Ces dernières servent à donner des informations sur les chèques reçus, comme par exemple la date souhaitée d'encaissement.
 
 
-=== [[Image:]]Affichage des informations relatives au cursus d'un étudiant dans IBP, ainsi que de son historique et de ses mémos ===
+[[Image:]]Affichage des informations relatives au cursus d'un étudiant dans IBP, ainsi que de son historique et de ses mémos
+
 === I.2.b REF : Portail des référents ===
 '''REF''' est une nouvelle solution qui offre aux étudiants, ainsi qu'à leurs responsables financiers, un accès en lecture et en écritures sur leurs informations. Cela comprend notamment les coordonnées de contact, l'adresse postale, et les noms et prénoms. Ils disposent également d'un accès en écriture sur leurs documents, ce qui regroupe les certificats de scolarité et les factures.
 
@@ -95,9 +120,34 @@ Le responsable financier ne peut modifier que ses propres informations. En revan
 
 <center>[[Image:]]Affichage des référents d'un étudiant dans REF</center>
 
-= II Lettre au maître de stage =
-== II.1 préambule ==
-''// TODO : ici on explique que j'ai déjà été repris et que je souhaite en réalité en CDI à la fin de mon CDD''
+= E-mail au maître de stage =
+<center>''Demande de renouvellement de contrat''</center>
 
-== II.2 contenu de la lettre ==
-''// TODO : une page de garde par partie''
+== II.1 Préambule ==
+Lors de cette deuxième partie, j'envoie un mail à mon responsable de stage, Bryan MAINGUEUX. Après avoir fini mon stage, puis obtenu un CDD de deux mois, je souhaite désormais avoir un CDI.
+
+== II.2 Contenu du mail ==
+De :Thibaut BROGGI <[mailto:broggi_a@epitech.eu broggi_a@epitech.eu]>
+
+À :Bryan MAINGUEUX <[mailto:maingueuxb@gmail.com maingueuxb@gmail.com]>
+
+Date :28-12-2014 18:42:21
+
+Objet :[KOD] Renouvellement de contrat
+
+
+Bonjour,
+
+
+Cordialement,
+
+
+--
+
+Thibaut BROGGI
+
+Développeur chez Fineduc
+
+[mailto:broggi_a@epitech.eu broggi_a@epitech.eu]
+
+07.80.06.91.71
